@@ -287,7 +287,93 @@ h4 {
     font-weight: bold;
 }
 
-.projects {
+.border {
+
+    text-align: center;
+    background-color: palevioletred;
+    width: 1000px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.border:hover {
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.my-price {
+    font-weight: bold;
+    color: white;
+
+}
+
+.container-four {
+    display: flex;
     align-items: center;
     justify-content: center;
+    gap: 50px;
+}
+
+.card-heading {
+    color: white;
+    font-size: 30px;
+}
+
+.card-details {
+    color: white;
+    font-size: 12px;
+
+}
+
+.card-one {
+    text-align: center;
+    background: #ff5959;
+    padding: 30px;
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 #1b0c2c;
+    border-radius: 10px;
+}
+
+.card-two {
+    text-align: center;
+    background: rgb(173, 165, 94);
+    padding: 30px;
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 #1b0c2c;
+    border-radius: 10px;
+}
+
+.card-three {
+    background: purple;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px 0 #1b0c2c;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #3663df;
+    height: 300px;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    margin-top: 5%;
+}
+
+.footer-heading {
+    margin-top: 5%;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 214, 78);
+}
+
+.footer-icon {
+    color: white;
 }
