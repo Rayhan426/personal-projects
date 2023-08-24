@@ -141,6 +141,7 @@ h4 {
     border-radius: 5px;
     font-size: 20px;
     margin-top: 30px;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -151,7 +152,7 @@ h4 {
 
 
 
-.container-two {
+.container-three {
     margin: 0;
     height: 60vh;
     display: flex;
@@ -216,7 +217,7 @@ h4 {
     right: 2.8em;
     width: 3em;
     height: 3em;
-    background-color: aqua;
+    background-color: #35a2fc;
 }
 
 .moon::before {
@@ -231,4 +232,62 @@ h4 {
     to {
         transform: rotate(360deg);
     }
+}
+
+/* ...................... */
+/* ............................. */
+.skills {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.skills:hover {
+    color: rgb(255, 254, 215);
+    transition: 0.5s;
+
+}
+
+.container-two {
+
+    margin-top: 2%;
+    background-color: #2089b2;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+
+
+}
+
+.container-two:hover {
+    padding: 30px;
+    transition: 1s;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.quantity {
+    color: white;
+
+    font-size: 14px;
+
+}
+
+.all-skills {
+    color: rgb(255, 250, 178);
+    font-weight: bold;
+}
+
+.projects {
+    align-items: center;
+    justify-content: center;
 }
